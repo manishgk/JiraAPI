@@ -1,4 +1,4 @@
-package methods;
+package code;
 
 public class JiraResource {
 	public static String REST1()

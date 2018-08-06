@@ -1,9 +1,7 @@
 package code;
 
 import static io.restassured.RestAssured.given;
-import methods.JiraResource;
-import methods.JiraReusable;
-import methods.JiraPayload;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;

@@ -1,4 +1,4 @@
-package methods;
+package code;
 
 public class JiraPayload {
 	public static String Login()

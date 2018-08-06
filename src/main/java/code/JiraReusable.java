@@ -1,4 +1,4 @@
-package methods;
+package code;
 import static io.restassured.RestAssured.given;
 
 import java.io.IOException;
