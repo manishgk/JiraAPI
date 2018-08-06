@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">  <!-- > if you want to run tests in parallel, if u want to run at class level, give it there -->
+
+  <test name="Test1">
+    <classes>
+      <class name="code.Session"></class>
+     
+      
+</classes>
+  </test> 
+  
+      
+      
+      <!-->
+      
+      exclude tag can skip methods in test
+      want to exclude all tests contain any unique name, use regex eg <exclude name="Mobile.*"/>   same with include
+      
+            include tag can add methods in test and exclude the rest
+            if u want to run specific package, give      package name ="name of package"/> under packages
+            -->
+      
+     
+ 
+  
+</suite> 
