@@ -39,6 +39,12 @@ dependencies {
     compile group: 'io.rest-assured', name: 'json-schema-validator', version: '3.1.0'
     compile group: 'io.rest-assured', name: 'json-path', version: '3.1.0'
     compile group: 'io.rest-assured', name: 'rest-assured-common', version: '3.1.0'
+    compile group: 'io.rest-assured', name: 'xml-path', version: '3.1.0'
+    testCompile group: 'io.rest-assured', name: 'spring-mock-mvc', version: '3.1.0'
+    compile group: 'io.rest-assured', name: 'scala-support', version: '3.1.0'
+    compile group: 'io.rest-assured', name: 'modules', version: '3.1.0', ext: 'pom'
+    compile group: 'io.rest-assured', name: 'rest-assured-parent', version: '3.1.0', ext: 'pom'
+    
     
     
     
